@@ -1,0 +1,90 @@
+package orescape.mod.init;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+import orescape.mod.objects.armor.ArmorBase;
+import orescape.mod.objects.items.ItemBase;
+import orescape.mod.objects.tools.ToolAxe;
+import orescape.mod.objects.tools.ToolPickaxe;
+import orescape.mod.objects.tools.ToolSword;
+import orescape.mod.util.Reference;
+
+public class ItemInit
+{
+	public static final List<Item> ITEMS = new ArrayList<Item>();
+	
+	//Material
+		//Tool
+	//public static final ToolMaterial material = EnumHelper.addToolMaterial(name, harvestLevel, maxUses, efficiency, damage, enchantability);
+	//public static final ToolMaterial TOOL_BRONZE = EnumHelper.addToolMaterial("tool_bronze", 1, -1, 2.0F, 0.0F, 0);
+	public static final ToolMaterial TOOL_DRAGON = EnumHelper.addToolMaterial("tool_dragon", 8, -1, 3.0F, 0.0F, 0);
+	
+		//Weapon
+	public static final ToolMaterial WEAPON_DRAGON = EnumHelper.addToolMaterial("weapon_dragon", 8, -1, 3.0F, 5.0F, 0);
+	
+		//Armor
+	//public static final ArmorMaterial material = EnumHelper.addArmorMaterial(name, textureName, durability, reductionAmounts, enchantability, soundOnEquip, toughness);
+	//public static final ArmorMaterial ARMOR_BRONZE = EnumHelper.addArmorMaterial("armor_bronze", Reference.MODID + ":bronze", -1, new int[]{1, 4, 5, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
+	public static final ArmorMaterial ARMOR_DRAGON = EnumHelper.addArmorMaterial("armor_dragon", Reference.MODID + ":dragon", -1, new int[]{1, 1, 1, 1}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 20.0F);
+	
+	//Ore
+	public static final Item ORE_COPPER = new ItemBase("ore_copper");
+	public static final Item ORE_TIN = new ItemBase("ore_tin");
+	public static final Item ORE_IRON = new ItemBase("ore_iron");
+	public static final Item ORE_COAL = new ItemBase("ore_coal");
+	public static final Item ORE_SILVER = new ItemBase("ore_silver");
+	public static final Item ORE_GOLD = new ItemBase("ore_gold");
+	public static final Item ORE_MITHRIL = new ItemBase("ore_mithril");
+	public static final Item ORE_ADDY = new ItemBase("ore_addy");
+	public static final Item ORE_RUNE = new ItemBase("ore_rune");
+	public static final Item ORE_ANCIENT = new ItemBase("ore_ancient");
+	
+	//Bars
+	public static final Item BAR_COPPER = new ItemBase("bar_copper");
+	public static final Item BAR_TIN = new ItemBase("bar_tin");
+	public static final Item BAR_IRON = new ItemBase("bar_iron");
+	public static final Item BAR_COAL = new ItemBase("bar_coal");
+	public static final Item BAR_SILVER = new ItemBase("bar_silver");
+	public static final Item BAR_GOLD = new ItemBase("bar_gold");
+	public static final Item BAR_MITHRIL = new ItemBase("bar_mithril");
+	public static final Item BAR_ADDY = new ItemBase("bar_addy");
+	public static final Item BAR_RUNE = new ItemBase("bar_rune");
+	public static final Item BAR_ANCIENT = new ItemBase("bar_ancient");
+	
+	//Weapons
+		//Swords
+	public static final Item SWORD_DRAGONLONG = new ToolSword("longsword_dragon", TOOL_DRAGON);
+	//public static final Item SWORD_DRAGONLONG = new ToolSword("sword_dragonlong", TOOL_DRAGON);
+	//public static final Item SWORD_DRAGONSCIM = new ToolSword("sword_dragonscim");
+	
+		//Dagger
+	public static final Item DAGGER_DRAGON = new ToolSword("dagger_dragon", TOOL_DRAGON);
+	//public static final Item DAGGER_DRAGON = new ToolSword("dagger_dragon", TOOL_DRAGON);
+		
+		//Scimitar
+	public static final Item SCIMITAR_DRAGON = new ToolSword("scimitar_dragon", TOOL_DRAGON);
+	
+		//Axes
+	//public static final Item AXE_DRAGON = new ToolAxe("axe_dragon");
+	public static final Item BATAXE_DRAGON = new ToolAxe("baxe_dragon", TOOL_DRAGON);
+	
+		//Maces
+	public static final Item MACE_DRAGON = new ToolSword("mace_dragon", TOOL_DRAGON);
+		
+		//Pickaxes
+	public static final Item PICKAXE_DRAGON = new ToolPickaxe("pickaxe_dragon", TOOL_DRAGON);
+	
+	//Armor
+	//public static final Item HELMET_DRAGON = new ArmorBase("helmet_dragon", armor_material, (1 for helm, chest, boots / 2 for legs), equipslot);
+	public static final Item HELMET_DRAGON = new ArmorBase("helmet_dragon", ARMOR_DRAGON, 1, EntityEquipmentSlot.HEAD);
+	public static final Item CHESTPLATE_DRAGON = new ArmorBase("chestplate_dragon", ARMOR_DRAGON, 1, EntityEquipmentSlot.CHEST);
+	public static final Item LEGGINGS_DRAGON = new ArmorBase("leggings_dragon", ARMOR_DRAGON, 2, EntityEquipmentSlot.LEGS);
+	public static final Item BOOTS_DRAGON = new ArmorBase("boots_dragon", ARMOR_DRAGON, 1, EntityEquipmentSlot.FEET);
+}

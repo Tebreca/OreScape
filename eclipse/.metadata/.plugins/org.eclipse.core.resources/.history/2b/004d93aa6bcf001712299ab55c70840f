@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless
+    "ingredients": [
+
+        {
+            "item": "os:bar_dragon"
+            "count": 3
+        },
+
+        {
+            "item": "minecraft:stick"
+            "count": 2
+        }
+],
+    
+    "result":
+    {
+        "item": "os:pickaxe_dragon"
+    }
+}

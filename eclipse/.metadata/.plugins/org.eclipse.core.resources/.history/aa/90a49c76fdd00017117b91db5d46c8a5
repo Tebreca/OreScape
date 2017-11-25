@@ -1,0 +1,9 @@
+package orescape.mod.objects.materials;
+
+import java.util.Random;
+
+public class Math
+{
+	int random = (int) (Math.random()*10);
+    System.out.println(random);
+}

@@ -1,0 +1,13 @@
+package orescape.mod.objects.materials;
+
+public class DragonLong
+{
+	float min = 1;
+	float max = 20;
+	float range=max-min +1;
+	public float dragonLong;
+	{
+	
+	dragonLong = ((float)(Math.random()* range) +min);
+		}
+}

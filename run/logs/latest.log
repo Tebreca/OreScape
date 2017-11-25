@@ -1,0 +1,72 @@
+[12:16:30] [main/INFO]: Setting user: Player315
+[12:16:33] [main/WARN]: Skipping bad option: lastServer:
+[12:16:33] [main/INFO]: LWJGL Version: 2.9.4
+[12:16:35] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OreScape
+[12:16:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:16:38] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[12:16:38] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:16:38] [Thread-5/INFO]: OpenAL initialized.
+[12:16:38] [Sound Library Loader/INFO]: Sound engine started
+[12:16:41] [main/INFO]: Created: 1024x512 textures-atlas
+[12:16:42] [main/WARN]: Skipping bad option: lastServer:
+[12:16:42] [main/INFO]: Narrator library for x64 successfully loaded
+[12:16:43] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[12:16:45] [Server thread/INFO]: Starting integrated minecraft server version 1.12.1
+[12:16:45] [Server thread/INFO]: Generating keypair
+[12:16:45] [Server thread/INFO]: Loaded 488 advancements
+[12:16:45] [Server thread/INFO]: Preparing start region for level 0
+[12:16:46] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:16:47] [Server thread/INFO]: Player315[local:E:6da4699a] logged in with entity id 162 at (-266.9316610951737, 9.152899471686718, -915.3629110321067)
+[12:16:47] [Server thread/INFO]: Player315 joined the game
+[12:16:47] [Server thread/INFO]: Player315 has made the advancement [Acquire Hardware]
+[12:16:47] [Server thread/INFO]: Player315 has made the advancement [Spooky Scary Skeleton]
+[12:16:47] [Server thread/INFO]: Saving and pausing game...
+[12:16:47] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[12:16:47] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[12:16:47] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[12:16:48] [main/INFO]: [CHAT] Player315 has made the advancement [Acquire Hardware]
+[12:16:48] [main/INFO]: [CHAT] Player315 has made the advancement [Spooky Scary Skeleton]
+[12:16:48] [main/INFO]: Loaded 44 advancements
+[12:16:48] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@34b40083[id=909ca267-1200-3a4b-b154-ac49c5d6bf14,name=Player315,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3172) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_151]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+[12:16:59] [Server thread/INFO]: Saving and pausing game...
+[12:16:59] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[12:16:59] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[12:16:59] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[12:17:01] [Server thread/INFO]: Changing difficulty to HARD, from PEACEFUL
+[12:17:14] [Server thread/INFO]: Player315 has made the advancement [Monster Hunter]
+[12:17:14] [main/INFO]: [CHAT] Player315 has made the advancement [Monster Hunter]
+[12:17:14] [main/INFO]: Loaded 54 advancements
+[12:17:32] [Server thread/INFO]: Saving and pausing game...
+[12:17:32] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[12:17:32] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[12:17:32] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[12:17:40] [main/INFO]: Stopping!
+[12:17:40] [Server thread/INFO]: Stopping server
+[12:17:40] [Server thread/INFO]: Saving players
+[12:17:40] [Server thread/INFO]: Saving worlds
+[12:17:40] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[12:17:40] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[12:17:40] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[12:17:40] [main/INFO]: SoundSystem shutting down...
+[12:17:40] [main/WARN]: Author: Paul Lamb, www.paulscode.com

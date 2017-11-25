@@ -1,0 +1,11 @@
+package orescape.mod.init;
+
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class CraftingRecipes {
+	
+	public static void register() {
+		GameRegistry.addShapedRecipe(new ItemStack(ItemInit.PICKAXE_DRAGON), "BBB", "XSX", "XSX", 'B', ItemInit.BAR_DRAGON, 'S',  );
+	}
+}

@@ -1,0 +1,78 @@
+1510776084657	Delete element
+1510846311599	Rename type 'OSmain'
+1510847574726	Rename package 'orescape.proxy'
+1510847580392	Copy package
+1510847641126	Copy package
+1510847668352	Move compilation unit
+1510847671352	Move compilation unit
+1510847674639	Delete element
+1510847678654	Delete element
+1510848569870	Delete element
+1510848854053	Delete element
+1510848929829	Move compilation unit
+1510849320207	Rename type 'ClientProxy'
+1510849331409	Rename type 'CommonProxy'
+1510849410183	Rename type 'Client'
+1510849417351	Rename type 'Common'
+1510849710863	Rename package 'util'
+1510849729283	Move compilation unit
+1510849731732	Move compilation unit
+1510849734091	Delete element
+1510850795231	Move compilation unit
+1510850803610	Delete element
+1510852309191	Delete element
+1510852740297	Rename package 'assets.tm'
+1510852785704	Delete element
+1510852793889	Delete element
+1510856548745	Delete element
+1510869784277	Delete element
+1510869866221	Delete element
+1510869869191	Delete element
+1510869889378	Delete element
+1510871436966	Copy file
+1510871440549	Copy file
+1510871443102	Copy file
+1510871445971	Copy file
+1510871448713	Copy file
+1510871451052	Copy file
+1510871453246	Copy file
+1510871462657	Rename resource 'ore_copper2.json'
+1510871470566	Rename resource 'ore_copper3.json'
+1510871479758	Rename resource 'ore_copper4.json'
+1510871488284	Rename resource 'ore_copper5.json'
+1510871495869	Rename resource 'ore_copper6.json'
+1510871522198	Rename resource 'ore_copper7.json'
+1510871534030	Rename resource 'ore_copper8.json'
+1510871538710	Copy file
+1510871542591	Copy file
+1510871555766	Rename resource 'ore_copper2.json'
+1510871565221	Rename resource 'ore_copper3.json'
+1510871602775	Rename resource 'ore_adamantite.json'
+1510871613219	Rename resource 'ore_runite.json'
+1510871726271	Copy file
+1510871736998	Delete element
+1510871838342	Rename resource 'ore_copper2.json'
+1510873590644	Rename compilation unit 'package-info.java'
+1510896011413	Copy file
+1510896030245	Rename resource 'sword_dragonlong2.json'
+1510898445289	Copy file
+1510898461304	Rename resource 'sword_dragonlong2.json'
+1510898474346	Rename resource 'sword_dragonlong.json'
+1510898484287	Rename resource 'sword_dragondagger.json'
+1510898700445	Rename resource 'sword_dragonlong.json'
+1510898709065	Rename resource 'sword_dragonlong2.json'
+1510923686525	Rename resource 'axe_dragonbaxe.json'
+1510929917517	Copy file
+1510929992758	Rename resource 'sword_dragondag.json'
+1510954207522	Delete element
+1510954213244	Delete element
+1510954331298	Move compilation unit
+1510954335483	Delete element
+1510954338942	Delete element
+1511015577636	Rename type 'ToolDragon'
+1511027306967	Delete element
+1511027312267	Delete element
+1511028988731	Copy file
+1511029107977	Delete element
+1511029116154	Copy file
+1511038651192	Rename resource 'en_US.lang'

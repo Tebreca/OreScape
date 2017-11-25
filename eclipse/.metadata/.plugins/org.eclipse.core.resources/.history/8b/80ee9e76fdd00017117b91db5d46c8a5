@@ -1,0 +1,16 @@
+package orescape.mod.objects.materials;
+
+import java.util.Random;
+
+public class Test
+{
+
+	float min = 1;
+	float max = 20;
+	float range=max-min +1;
+	public float DragonLong;
+	{
+	
+	DragonLong = ((float)(Math.random()* range) +min);
+		}
+}

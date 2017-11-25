@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped"
+    
+    "pattern":
+    {
+        "OS"
+    },
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "os:item"
+        },
+        
+        "S":
+        {
+            "item": "os:item2"
+        }
+    }
+}

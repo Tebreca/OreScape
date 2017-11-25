@@ -1,0 +1,6 @@
+package orescape.mod.objects.materials;
+
+public class Dragon
+{
+	public final float materialDragon = 20;
+}

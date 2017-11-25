@@ -1,0 +1,49 @@
+package orescape.mod.objects.tools;
+
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemStack;
+
+import java.util.Random;
+import java.util.Set;
+
+import com.google.common.collect.Sets;
+
+import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemSword;
+import net.minecraft.item.ItemTool;
+import orescape.mod.OSMain;
+import orescape.mod.init.ItemInit;
+import orescape.mod.util.IHasModel;
+
+
+public class ToolSword extends ItemSword implements IHasModel
+{
+	private static final Set<Block> EFFECTIVE_ON = null;
+	
+	public ToolSword(String name, ToolMaterial material)
+	{
+		super(material);
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		setCreativeTab(CreativeTabs.COMBAT);
+		
+		ItemInit.ITEMS.add(this);
+	}
+	@Override
+	public boolean onLeftClickEntity(ItemStack stack, EntityPlayer player, Entity entity){
+	    Random ran = new Random();
+	    int dmg = ran.nextInt(20) + 1;
+	    stack.getItem().setDamage(stack, dmg);
+	    return false;
+	}
+	
+	public void registerModels()
+	{
+		OSMain.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+}

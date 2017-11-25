@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped"
+    
+    "ingredients":
+    {
+        "OS"
+    },
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "os:item"
+        },
+        
+        "S":
+        {
+            "item": "os:item2"
+        }
+    },
+    
+    "result":
+    {
+        "item": "os:item3",
+        "count": 1
+    }
+}
