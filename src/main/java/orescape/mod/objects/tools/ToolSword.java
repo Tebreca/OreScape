@@ -20,12 +20,6 @@ import orescape.mod.util.IHasModel;
 public class ToolSword extends ItemTool implements IHasModel
 {
 	private static final Set<Block> EFFECTIVE_ON = null;
-	public static Random gen = new Random();
-	
-	public static float dragonLong = (gen.nextInt(20)+1);
-	public static float attackDamageIn = dragonLong;
-	public ToolMaterial materialIn;
-	
 	
 	public ToolSword(String name, ToolMaterial material)
 	{
@@ -33,9 +27,6 @@ public class ToolSword extends ItemTool implements IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.COMBAT);
-		attackSpeed = 5.0F;
-		damageVsEntity = attackDamageIn;
-		
 		
 		ItemInit.ITEMS.add(this);
 	}
