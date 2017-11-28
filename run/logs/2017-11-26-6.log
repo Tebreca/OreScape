@@ -1,0 +1,211 @@
+[22:45:36] [main/INFO]: Setting user: Player59
+[22:45:40] [main/WARN]: Skipping bad option: lastServer:
+[22:45:40] [main/INFO]: LWJGL Version: 2.9.4
+[22:45:42] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OreScape
+[22:45:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:45:44] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[22:45:44] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:45:44] [Thread-5/INFO]: OpenAL initialized.
+[22:45:45] [Sound Library Loader/INFO]: Sound engine started
+[22:45:47] [main/INFO]: Created: 1024x512 textures-atlas
+[22:45:49] [main/WARN]: Skipping bad option: lastServer:
+[22:45:49] [main/INFO]: Narrator library for x64 successfully loaded
+[22:45:49] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[22:45:52] [Server thread/INFO]: Starting integrated minecraft server version 1.12.1
+[22:45:52] [Server thread/INFO]: Generating keypair
+[22:45:54] [Server thread/INFO]: Loaded 488 advancements
+[22:45:54] [Server thread/INFO]: Preparing start region for level 0
+[22:45:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:45:56] [Server thread/INFO]: Player59[local:E:170bc507] logged in with entity id 88 at (-207.361245738186, 4.0, -850.2667081165662)
+[22:45:56] [Server thread/INFO]: Player59 joined the game
+[22:45:56] [Server thread/INFO]: Saving and pausing game...
+[22:45:56] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[22:45:56] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[22:45:56] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[22:45:56] [main/INFO]: Loaded 8 advancements
+[22:45:56] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@773c7b55[id=76a85934-d1dc-3e22-b48f-18504df540b9,name=Player59,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3172) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_151]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+[22:47:32] [main/INFO]: Loaded 11 advancements
+[22:50:57] [Server thread/INFO]: [Player59: Set own game mode to Survival Mode]
+[22:50:57] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[22:51:08] [Server thread/INFO]: [Player59: Set the time to 1000]
+[22:51:08] [main/INFO]: [CHAT] Set the time to 1000
+[22:51:30] [Server thread/INFO]: [Player59: Set own game mode to Creative Mode]
+[22:51:30] [main/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[22:52:49] [main/INFO]: [CHAT] [Debug]: Reloaded resource packs
+[22:52:49] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OreScape
+[22:52:49] [Server thread/INFO]: Loaded 488 advancements
+[22:52:50] [main/INFO]: SoundSystem shutting down...
+[22:52:50] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[22:52:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:52:51] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[22:52:51] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:52:51] [Thread-12/INFO]: OpenAL initialized.
+[22:52:51] [Sound Library Loader/INFO]: Sound engine started
+[22:52:53] [main/INFO]: Created: 1024x512 textures-atlas
+[22:52:53] [main/INFO]: Loaded 11 advancements
+[22:53:07] [Server thread/INFO]: Saving and pausing game...
+[22:53:07] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[22:53:07] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[22:53:07] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:00:45] [Server thread/INFO]: Saving and pausing game...
+[23:00:45] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:00:45] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:00:45] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:01:19] [main/INFO]: [CHAT] [Debug]: Reloaded resource packs
+[23:01:19] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OreScape
+[23:01:19] [Server thread/INFO]: Loaded 488 advancements
+[23:01:20] [main/INFO]: SoundSystem shutting down...
+[23:01:20] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:01:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:01:21] [Thread-14/INFO]: Initializing LWJGL OpenAL
+[23:01:21] [Thread-14/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:01:21] [Thread-14/INFO]: OpenAL initialized.
+[23:01:21] [Sound Library Loader/INFO]: Sound engine started
+[23:01:23] [main/INFO]: Created: 1024x512 textures-atlas
+[23:01:23] [main/INFO]: Loaded 11 advancements
+[23:01:33] [Server thread/INFO]: Saving and pausing game...
+[23:01:33] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:01:33] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:01:33] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:01:41] [main/INFO]: [CHAT] [Debug]: Reloaded resource packs
+[23:01:41] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OreScape
+[23:01:42] [Server thread/INFO]: Loaded 488 advancements
+[23:01:43] [main/INFO]: SoundSystem shutting down...
+[23:01:43] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:01:43] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:01:43] [Thread-16/INFO]: Initializing LWJGL OpenAL
+[23:01:43] [Thread-16/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:01:43] [Thread-16/INFO]: OpenAL initialized.
+[23:01:44] [Sound Library Loader/INFO]: Sound engine started
+[23:01:45] [main/INFO]: Created: 1024x512 textures-atlas
+[23:01:46] [main/INFO]: Loaded 11 advancements
+[23:01:59] [Server thread/INFO]: Saving and pausing game...
+[23:01:59] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:01:59] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:01:59] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:02:01] [Server thread/INFO]: Saving and pausing game...
+[23:02:01] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:02:01] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:02:01] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:02:04] [Server thread/INFO]: Changing difficulty to HARD, from PEACEFUL
+[23:02:12] [Server thread/INFO]: Player59 has made the advancement [Monster Hunter]
+[23:02:12] [main/INFO]: [CHAT] Player59 has made the advancement [Monster Hunter]
+[23:02:12] [main/INFO]: Loaded 21 advancements
+[23:02:14] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
+[23:02:14] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
+[23:02:22] [main/INFO]: Loaded 23 advancements
+[23:02:45] [Server thread/INFO]: Saving and pausing game...
+[23:02:45] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:02:45] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:02:45] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:02:49] [Server thread/INFO]: Saving and pausing game...
+[23:02:49] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:02:49] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:02:49] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:03:23] [Server thread/INFO]: [Player59: Set own game mode to Survival Mode]
+[23:03:23] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[23:03:24] [Server thread/INFO]: Saving and pausing game...
+[23:03:24] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:03:24] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:03:24] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:03:27] [Server thread/INFO]: Changing difficulty to PEACEFUL, from HARD
+[23:03:37] [Server thread/INFO]: Saving and pausing game...
+[23:03:37] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:03:37] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:03:37] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:04:05] [Server thread/INFO]: [Player59: Set own game mode to Creative Mode]
+[23:04:05] [main/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[23:04:27] [main/INFO]: [CHAT] [Debug]: Reloaded resource packs
+[23:04:27] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OreScape
+[23:04:27] [Server thread/INFO]: Loaded 488 advancements
+[23:04:28] [main/INFO]: SoundSystem shutting down...
+[23:04:28] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:04:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:04:29] [Thread-18/INFO]: Initializing LWJGL OpenAL
+[23:04:29] [Thread-18/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:04:29] [Thread-18/INFO]: OpenAL initialized.
+[23:04:29] [Sound Library Loader/INFO]: Sound engine started
+[23:04:31] [main/INFO]: Created: 1024x512 textures-atlas
+[23:04:31] [main/INFO]: Loaded 23 advancements
+[23:04:37] [Server thread/INFO]: Saving and pausing game...
+[23:04:37] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:04:37] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:04:37] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:04:41] [main/INFO]: [CHAT] [Debug]: Reloaded resource packs
+[23:04:41] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OreScape
+[23:04:41] [Server thread/INFO]: Loaded 488 advancements
+[23:04:43] [main/INFO]: SoundSystem shutting down...
+[23:04:43] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:04:43] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:04:43] [Thread-20/INFO]: Initializing LWJGL OpenAL
+[23:04:43] [Thread-20/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:04:43] [Thread-20/INFO]: OpenAL initialized.
+[23:04:44] [Sound Library Loader/INFO]: Sound engine started
+[23:04:45] [main/INFO]: Created: 1024x512 textures-atlas
+[23:04:46] [main/INFO]: Loaded 23 advancements
+[23:05:19] [Server thread/INFO]: [Player59: Set own game mode to Creative Mode]
+[23:05:19] [main/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[23:05:22] [Server thread/INFO]: [Player59: Set own game mode to Survival Mode]
+[23:05:22] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[23:05:38] [Server thread/INFO]: Saving and pausing game...
+[23:05:38] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:05:38] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:05:38] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:06:07] [Server thread/INFO]: Saving and pausing game...
+[23:06:07] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:06:07] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:06:07] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:06:17] [Server thread/INFO]: Saving and pausing game...
+[23:06:17] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:06:17] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:06:17] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:06:25] [Server thread/INFO]: Saving and pausing game...
+[23:06:25] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:06:25] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:06:25] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:06:52] [Server thread/INFO]: Saving and pausing game...
+[23:06:52] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:06:52] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:06:52] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:07:16] [Server thread/INFO]: Saving and pausing game...
+[23:07:16] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:07:16] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:07:16] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:07:38] [Server thread/INFO]: Saving and pausing game...
+[23:07:38] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:07:38] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:07:38] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:07:39] [Server thread/INFO]: Saving and pausing game...
+[23:07:39] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:07:39] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:07:39] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end
+[23:07:41] [Server thread/INFO]: Stopping server
+[23:07:41] [Server thread/INFO]: Saving players
+[23:07:41] [Server thread/INFO]: Player59 lost connection: Disconnected
+[23:07:41] [Server thread/INFO]: Player59 left the game
+[23:07:41] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[23:07:41] [Server thread/INFO]: Saving worlds
+[23:07:41] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/overworld
+[23:07:41] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_nether
+[23:07:41] [Server thread/INFO]: Saving chunks for level 'OreScape TESTING'/the_end

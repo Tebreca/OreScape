@@ -47,6 +47,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2017-11-27 15:20:20 -0600"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2017-11-24 05:17:11 -0600"
@@ -56,6 +62,12 @@
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2017-11-24 05:17:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2017-11-27 15:20:20 -0600"
     },
     "done": true
   },

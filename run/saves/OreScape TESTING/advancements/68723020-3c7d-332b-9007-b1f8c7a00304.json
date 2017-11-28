@@ -1,11 +1,67 @@
 {
-  "minecraft:recipes/decorations/crafting_table": {
+  "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
       "has_planks": "2017-11-19 12:24:07 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_button": {
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2017-11-26 22:43:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2017-11-26 22:43:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "spider": "2017-11-19 12:08:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "slime": "2017-11-19 12:23:53 -0600",
+      "skeleton": "2017-11-19 12:09:10 -0600",
+      "spider": "2017-11-19 12:08:32 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2017-11-19 12:24:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2017-11-19 12:24:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_apple": "2017-11-19 12:08:34 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2017-11-26 22:43:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2017-11-19 12:08:01 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2017-11-19 12:24:07 -0600"
     },
@@ -23,6 +79,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2017-11-26 22:43:55 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapdoor": {
     "criteria": {
       "has_planks": "2017-11-19 12:24:07 -0600"
@@ -35,15 +97,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_lots_of_items": "2017-11-19 12:09:10 -0600"
+      "has_stick": "2017-11-26 22:43:55 -0600"
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "spider": "2017-11-19 12:08:32 -0600"
+      "has_lots_of_items": "2017-11-19 12:09:10 -0600"
     },
     "done": true
   },
@@ -53,29 +115,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "slime": "2017-11-19 12:23:53 -0600",
-      "skeleton": "2017-11-19 12:09:10 -0600",
-      "spider": "2017-11-19 12:08:32 -0600"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2017-11-19 12:24:07 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+  "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
-      "has_planks": "2017-11-19 12:24:07 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/fence": {
-    "criteria": {
-      "has_planks": "2017-11-19 12:24:07 -0600"
+      "has_stick": "2017-11-26 22:43:55 -0600"
     },
     "done": true
   },
@@ -84,12 +132,6 @@
       "has_planks": "2017-11-19 12:24:07 -0600"
     },
     "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "golden_apple": "2017-11-19 12:08:34 -0600"
-    },
-    "done": false
   },
   "minecraft:recipes/misc/stick": {
     "criteria": {
@@ -120,11 +162,5 @@
       "has_planks": "2017-11-19 12:24:07 -0600"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "plains": "2017-11-19 12:08:01 -0600"
-    },
-    "done": false
   }
 }
